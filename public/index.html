@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Git Fundamentals to Heroku | Ostad DevOps</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ============================
+       NAVIGATION
+  ============================= -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-brand">
+        <span class="brand-icon">⎇</span>
+        <span class="brand-text">Ostad <span class="brand-accent">DevOps</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#guides">Guides</a></li>
+        <li><a href="#cheatsheet">Cheatsheet</a></li>
+        <li>
+          <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals" target="_blank" class="nav-cta">
+            GitHub ↗
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================
+       HERO SECTION
+  ============================= -->
+  <section class="hero">
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+    <div class="hero-orb orb-3"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Batch 11 · Module 02 · Class 01
+      </div>
+      <h1 class="hero-title">
+        Git Fundamentals
+        <span class="gradient-text">to Heroku</span>
+      </h1>
+      <p class="hero-subtitle">
+        A complete zero-to-deploy guide — from creating your first GitHub account
+        to shipping a live app on Heroku. Every command, every concept, with real examples.
+      </p>
+      <div class="hero-actions">
+        <a href="#journey" class="btn btn-primary">Start Learning ↓</a>
+        <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals" target="_blank" class="btn btn-outline">
+          View on GitHub ↗
+        </a>
+      </div>
+      <div class="hero-code">
+        <span class="code-prompt">$</span>
+        <span class="code-text typing">git commit -m "my first commit 🚀"</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       STATS BAR
+  ============================= -->
+  <section class="stats-bar">
+    <div class="stats-container">
+      <div class="stat-item">
+        <span class="stat-number">8</span>
+        <span class="stat-label">In-Depth Guides</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">50+</span>
+        <span class="stat-label">Git Commands</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">3</span>
+        <span class="stat-label">OS Installations</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">1</span>
+        <span class="stat-label">Live Deployed App</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       LEARNING JOURNEY
+  ============================= -->
+  <section class="journey" id="journey">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Step by Step</span>
+        <h2 class="section-title">Your Learning Journey</h2>
+        <p class="section-subtitle">Follow these phases in order — each builds on the last.</p>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-icon" style="background: linear-gradient(135deg, #7c3aed, #a78bfa);">01</div>
+          <div class="timeline-content">
+            <h3>Setup & Installation</h3>
+            <p>Create a GitHub account. Install Git CLI on Windows, macOS, and Linux. Configure your identity.</p>
+            <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/01-SETUP.md" target="_blank" class="timeline-link">Read Guide →</a>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" style="background: linear-gradient(135deg, #2563eb, #60a5fa);">02</div>
+          <div class="timeline-content">
+            <h3>Repositories & Roles</h3>
+            <p>Create and clone repositories. Understand remotes, .git internals, and GitHub team roles.</p>
+            <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/02-REPOS.md" target="_blank" class="timeline-link">Read Guide →</a>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" style="background: linear-gradient(135deg, #0891b2, #22d3ee);">03</div>
+          <div class="timeline-content">
+            <h3>Core Git Commands</h3>
+            <p>Every command from init to reflog — with examples for beginners and advanced users alike.</p>
+            <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/03-COMMANDS.md" target="_blank" class="timeline-link">Read Guide →</a>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" style="background: linear-gradient(135deg, #059669, #34d399);">04</div>
+          <div class="timeline-content">
+            <h3>Branching Deep Dive</h3>
+            <p>Branches, merging, rebasing, cherry-pick, conflict resolution, Git Flow, and trunk-based dev.</p>
+            <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/04-BRANCHES.md" target="_blank" class="timeline-link">Read Guide →</a>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" style="background: linear-gradient(135deg, #d97706, #fbbf24);">05</div>
+          <div class="timeline-content">
+            <h3>Branch Protection Rules</h3>
+            <p>Restrict branch deletion and force-push. Require PRs, reviews, and CI status checks on GitHub.</p>
+            <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/05-BRANCH-PROTECTION.md" target="_blank" class="timeline-link">Read Guide →</a>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" style="background: linear-gradient(135deg, #db2777, #f472b6);">06</div>
+          <div class="timeline-content">
+            <h3>Fork & Collaborate</h3>
+            <p>Fork repos, sync with upstream, create feature branches, open Pull Requests, and do code reviews.</p>
+            <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/06-FORK-COLLABORATE.md" target="_blank" class="timeline-link">Read Guide →</a>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" style="background: linear-gradient(135deg, #0891b2, #db2777);">06b</div>
+          <div class="timeline-content">
+            <h3>Private Repos & Full Contribution</h3>
+            <p>Clone private repos via HTTPS+PAT or SSH on WSL, Git Bash, Ubuntu. Draft PRs, PR templates, upstream sync, GH CLI.</p>
+            <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/02-REPOS.md" target="_blank" class="timeline-link">Read Guide →</a>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon" style="background: linear-gradient(135deg, #7c3aed, #ec4899);">07</div>
+          <div class="timeline-content">
+            <h3>Deploy to Heroku</h3>
+            <p>Install Heroku CLI. Authenticate (MFA-safe via API key). Push to Heroku. Go live.</p>
+            <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/07-HEROKU-DEPLOY.md" target="_blank" class="timeline-link">Read Guide →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       GUIDE CARDS
+  ============================= -->
+  <section class="guides" id="guides">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Documentation</span>
+        <h2 class="section-title">All Guides</h2>
+        <p class="section-subtitle">Click any card to open the full guide on GitHub.</p>
+      </div>
+      <div class="cards-grid">
+
+        <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/01-SETUP.md" target="_blank" class="card" style="--card-accent: #7c3aed;">
+          <div class="card-icon">🛠️</div>
+          <h3 class="card-title">Setup & Installation</h3>
+          <p class="card-desc">GitHub account · Git CLI · Windows · macOS · Linux · SSH keys · Config</p>
+          <span class="card-tag">Phase 01</span>
+        </a>
+
+        <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/02-REPOS.md" target="_blank" class="card" style="--card-accent: #2563eb;">
+          <div class="card-icon">📦</div>
+          <h3 class="card-title">Repositories & Roles</h3>
+          <p class="card-desc">Create repos · Clone · Remotes · .git internals · Owner · Admin · Write · Read</p>
+          <span class="card-tag">Phase 02</span>
+        </a>
+
+        <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/03-COMMANDS.md" target="_blank" class="card" style="--card-accent: #0891b2;">
+          <div class="card-icon">💻</div>
+          <h3 class="card-title">Core Git Commands</h3>
+          <p class="card-desc">init · clone · add · commit · push · pull · stash · revert · bisect · reflog + more</p>
+          <span class="card-tag">Phase 03</span>
+        </a>
+
+        <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/04-BRANCHES.md" target="_blank" class="card" style="--card-accent: #059669;">
+          <div class="card-icon">🌿</div>
+          <h3 class="card-title">Branching Deep Dive</h3>
+          <p class="card-desc">branch · merge · rebase · cherry-pick · conflicts · Git Flow · trunk-based dev</p>
+          <span class="card-tag">Phase 04</span>
+        </a>
+
+        <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/05-BRANCH-PROTECTION.md" target="_blank" class="card" style="--card-accent: #d97706;">
+          <div class="card-icon">🔒</div>
+          <h3 class="card-title">Branch Protection</h3>
+          <p class="card-desc">Restrict deletion · Block force push · Require PRs · Require reviews · CI checks</p>
+          <span class="card-tag">Phase 05</span>
+        </a>
+
+        <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/06-FORK-COLLABORATE.md" target="_blank" class="card" style="--card-accent: #db2777;">
+          <div class="card-icon">🍴</div>
+          <h3 class="card-title">Fork & Collaborate</h3>
+          <p class="card-desc">Fork · upstream remote · sync fork · feature branch · PR · code review · merge</p>
+          <span class="card-tag">Phase 06</span>
+        </a>
+
+        <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/02-REPOS.md" target="_blank" class="card" style="--card-accent: #0891b2;">
+          <div class="card-icon">🔑</div>
+          <h3 class="card-title">Private Repos & Full Contribution</h3>
+          <p class="card-desc">HTTPS+PAT · SSH setup · WSL · Git Bash · Ubuntu · upstream deep dive · Draft PRs · PR templates · GH CLI · full OSS cycle</p>
+          <span class="card-tag">In 02-REPOS</span>
+        </a>
+
+        <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/07-HEROKU-DEPLOY.md" target="_blank" class="card card-wide" style="--card-accent: #ec4899;">
+          <div class="card-icon">🚀</div>
+          <h3 class="card-title">Deploy to Heroku</h3>
+          <p class="card-desc">Install CLI · MFA-safe login via API Key · heroku create · git push heroku main · heroku open · logs</p>
+          <span class="card-tag">Phase 07</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       GIT CHEATSHEET
+  ============================= -->
+  <section class="cheatsheet" id="cheatsheet">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Quick Reference</span>
+        <h2 class="section-title">Git Cheatsheet</h2>
+        <p class="section-subtitle">The most-used commands at a glance. Bookmark this page.</p>
+      </div>
+
+      <div class="cheatsheet-grid">
+
+        <div class="cheat-group">
+          <h4 class="cheat-group-title">⚙️ Setup</h4>
+          <div class="cheat-row"><code>git config --global user.name "Name"</code><span>Set your name</span></div>
+          <div class="cheat-row"><code>git config --global user.email "email"</code><span>Set your email</span></div>
+          <div class="cheat-row"><code>git init</code><span>Initialize new repo</span></div>
+          <div class="cheat-row"><code>git clone &lt;url&gt;</code><span>Clone a remote repo</span></div>
+        </div>
+
+        <div class="cheat-group">
+          <h4 class="cheat-group-title">📝 Stage & Commit</h4>
+          <div class="cheat-row"><code>git status</code><span>Show working tree status</span></div>
+          <div class="cheat-row"><code>git add .</code><span>Stage all changes</span></div>
+          <div class="cheat-row"><code>git add &lt;file&gt;</code><span>Stage specific file</span></div>
+          <div class="cheat-row"><code>git commit -m "msg"</code><span>Commit with message</span></div>
+          <div class="cheat-row"><code>git commit --amend</code><span>Edit last commit</span></div>
+        </div>
+
+        <div class="cheat-group">
+          <h4 class="cheat-group-title">🌿 Branches</h4>
+          <div class="cheat-row"><code>git branch</code><span>List local branches</span></div>
+          <div class="cheat-row"><code>git branch &lt;name&gt;</code><span>Create a branch</span></div>
+          <div class="cheat-row"><code>git switch -c &lt;name&gt;</code><span>Create and switch</span></div>
+          <div class="cheat-row"><code>git switch &lt;name&gt;</code><span>Switch branch</span></div>
+          <div class="cheat-row"><code>git branch -d &lt;name&gt;</code><span>Delete branch</span></div>
+          <div class="cheat-row"><code>git merge &lt;branch&gt;</code><span>Merge into current</span></div>
+        </div>
+
+        <div class="cheat-group">
+          <h4 class="cheat-group-title">🔄 Remote</h4>
+          <div class="cheat-row"><code>git remote -v</code><span>List remotes</span></div>
+          <div class="cheat-row"><code>git remote add origin &lt;url&gt;</code><span>Add remote</span></div>
+          <div class="cheat-row"><code>git push -u origin main</code><span>Push and track</span></div>
+          <div class="cheat-row"><code>git pull</code><span>Fetch + merge remote</span></div>
+          <div class="cheat-row"><code>git fetch</code><span>Fetch only (no merge)</span></div>
+        </div>
+
+        <div class="cheat-group">
+          <h4 class="cheat-group-title">⏪ Undo</h4>
+          <div class="cheat-row"><code>git restore &lt;file&gt;</code><span>Discard working changes</span></div>
+          <div class="cheat-row"><code>git restore --staged &lt;file&gt;</code><span>Unstage a file</span></div>
+          <div class="cheat-row"><code>git revert &lt;hash&gt;</code><span>Safe undo (new commit)</span></div>
+          <div class="cheat-row"><code>git reset --soft HEAD~1</code><span>Undo last commit, keep changes</span></div>
+          <div class="cheat-row"><code>git reset --hard HEAD~1</code><span>Undo last commit + discard</span></div>
+        </div>
+
+        <div class="cheat-group">
+          <h4 class="cheat-group-title">📋 Inspect</h4>
+          <div class="cheat-row"><code>git log --oneline</code><span>Short commit log</span></div>
+          <div class="cheat-row"><code>git log --graph</code><span>Visual branch graph</span></div>
+          <div class="cheat-row"><code>git diff</code><span>Unstaged changes</span></div>
+          <div class="cheat-row"><code>git diff --staged</code><span>Staged changes</span></div>
+          <div class="cheat-row"><code>git blame &lt;file&gt;</code><span>Who changed what line</span></div>
+          <div class="cheat-row"><code>git reflog</code><span>Full history incl. resets</span></div>
+        </div>
+
+        <div class="cheat-group">
+          <h4 class="cheat-group-title">📦 Stash</h4>
+          <div class="cheat-row"><code>git stash</code><span>Shelve current changes</span></div>
+          <div class="cheat-row"><code>git stash pop</code><span>Restore latest stash</span></div>
+          <div class="cheat-row"><code>git stash list</code><span>List all stashes</span></div>
+          <div class="cheat-row"><code>git stash drop</code><span>Delete latest stash</span></div>
+        </div>
+
+        <div class="cheat-group">
+          <h4 class="cheat-group-title">🚀 Heroku</h4>
+          <div class="cheat-row"><code>export HEROKU_API_KEY=xxx</code><span>Auth via API key (MFA-safe)</span></div>
+          <div class="cheat-row"><code>heroku create &lt;app-name&gt;</code><span>Create Heroku app</span></div>
+          <div class="cheat-row"><code>git push heroku main</code><span>Deploy to Heroku</span></div>
+          <div class="cheat-row"><code>heroku open</code><span>Open live app in browser</span></div>
+          <div class="cheat-row"><code>heroku logs --tail</code><span>Live log stream</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       FOOTER
+  ============================= -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="brand-icon">⎇</span>
+        <span class="brand-text">Ostad <span class="brand-accent">DevOps</span></span>
+      </div>
+      <p class="footer-desc">Built with Node.js · Deployed on Heroku · Documented in Markdown</p>
+      <div class="footer-links">
+        <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals" target="_blank">GitHub Repo</a>
+        <a href="https://github.com/sarowar-alam/git-fork-heroku-fundamentals/blob/main/docs/07-HEROKU-DEPLOY.md" target="_blank">Heroku Guide</a>
+        <a href="https://github.com/sarowar-alam" target="_blank">@sarowar-alam</a>
+      </div>
+      <p class="footer-copy">© 2026 Sarowar Alam · Ostad Batch 11</p>
+    </div>
+  </footer>
+
+</body>
+</html>
