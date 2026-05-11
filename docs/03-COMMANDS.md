@@ -866,6 +866,8 @@ git worktree remove ../hotfix-branch
 
 **Next:** [04 — Branching Deep Dive →](./04-BRANCHES.md)
 
+> **See also:** [08 — Git Rollback & Recovery →](./08-RECOVERY.md) for a dedicated guide on `git reset`, `git revert`, `git reflog`, and recovering deleted branches.
+
 ---
 
 ## 🧑‍💻 Author
